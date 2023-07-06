@@ -2,9 +2,9 @@ import React from 'react'
 
 export const Footer = () => {
     return (
-		<div className="container-expand-lg my-5 mb-0">
+        <div className="container-expand-lg my-5 mb-0">
             <footer className="text-center text-lg-start text-white"
-                style= {{backgroundColor:"#009FB5"}}>
+                style={{ backgroundColor: "#009FB5" }}>
                 <div className="container p-4 pb-0">
                     <section className="">
                         <div className="row">
@@ -13,9 +13,7 @@ export const Footer = () => {
                                     Island Escape Tours
                                 </h6>
                                 <p>
-                                    Here you can use rows and columns to organize your footer
-                                    content. Lorem ipsum dolor sit amet, consectetur adipisicing
-                                    elit.
+                                    Cruise the cays or the sandy banks. Deep drop with our experienced crew or simple lounge with family and friends.
                                 </p>
                             </div>
                             <hr className="w-100 clearfix d-md-none" />
@@ -23,16 +21,16 @@ export const Footer = () => {
                             <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
                                 <h6 className="text-uppercase mb-4 font-weight-bold">Products</h6>
                                 <p>
-                                    <a className="text-white">MDBootstrap</a>
+                                    <a className="text-white">Center Consoles</a>
                                 </p>
                                 <p>
-                                    <a className="text-white">MDWordPress</a>
+                                    <a className="text-white">Sail Boats</a>
                                 </p>
                                 <p>
-                                    <a className="text-white">BrandFlow</a>
+                                    <a className="text-white">Catamarans</a>
                                 </p>
                                 <p>
-                                    <a className="text-white">Bootstrap Angular</a>
+                                    <a className="text-white">Yachts</a>
                                 </p>
                             </div>
 
@@ -42,10 +40,10 @@ export const Footer = () => {
 
                             <div className="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
                                 <h6 className="text-uppercase mb-4 font-weight-bold">Contact</h6>
-                                <p><i className="fas fa-home mr-3"></i> New York, NY 10012, US</p>
-                                <p><i className="fas fa-envelope mr-3"></i> info@gmail.com</p>
-                                <p><i className="fas fa-phone mr-3"></i> + 01 234 567 88</p>
-                                <p><i className="fas fa-print mr-3"></i> + 01 234 567 89</p>
+                                <p><i className="fas fa-home mr-3"></i> Aventura, FL 33126, US</p>
+                                <p><i className="fas fa-envelope mr-3"></i> captain@ietours.com</p>
+                                <p><i className="fas fa-phone mr-3"></i> 305 555 8888 </p>
+                                <p><i className="fas fa-print mr-3"></i> 305 555 7777</p>
                             </div>
 
                             <div className="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
@@ -93,12 +91,12 @@ export const Footer = () => {
                         </div>
                     </section>
                 </div>
-                <div className="text-center p-3" style={{backgroundColor: "rgba(0, 0, 0, 0.2)"}}>
+                <div className="text-center p-3" style={{ backgroundColor: "rgba(0, 0, 0, 0.2)" }}>
                     © 2023 Copyright:
-                	<a className="text-white" href="https://mdbootstrap.com/">Island Escape Tours</a>
+                    <a className="text-white" href="https://mdbootstrap.com/">Island Escape Tours</a>
                 </div>
             </footer>
         </div>
-	);
+    );
 };
 
