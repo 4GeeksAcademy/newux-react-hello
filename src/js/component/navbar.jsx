@@ -18,14 +18,13 @@ export const Navbar = () => {
 				>
 					<i className="fas fa-bars"></i>
 				</button>
-
 				{/* <!-- Collapsible wrapper --> */}
 				<div className="collapse navbar-collapse" id="navbarSupportedContent">
 					{/* <!-- Navbar brand --> */}
 					<a className="navbar-brand mt-2 mt-lg-0" href="#">
 						<img
-							src="https://mdbcdn.b-cdn.net/img/logo/mdb-transaprent-noshadows.webp"
-							height="15"
+							src="https://static.thenounproject.com/png/164595-200.png"
+							height="40"
 							alt="MDB Logo"
 							loading="lazy"
 						/>
@@ -39,7 +38,10 @@ export const Navbar = () => {
 							<a className="nav-link" href="#">Team</a>
 						</li>
 						<li className="nav-item">
-							<a className="nav-link" href="#">Projects</a>
+							<a className="nav-link" href="#">Book a Charter</a>
+						</li>
+						<li className="nav-item">
+							{/* <a className="btn btn-outline-dark btn-sm rounded-1" href="#" role="button">Sign Up</a> */}
 						</li>
 					</ul>
 					{/* <!-- Left links --> */}
@@ -49,8 +51,9 @@ export const Navbar = () => {
 				{/* <!-- Right elements --> */}
 				<div className="d-flex align-items-center">
 					{/* <!-- Icon --> */}
+					<a className="btn btn-dark btn-sm rounded-1" href="#" role="button">Sign Up</a>
 					<a className="text-reset me-3" href="#">
-						<i className="fas fa-shopping-cart"></i>
+						{/* <i class="fa-solid fa-right-to-bracket"></i> */}
 					</a>
 
 					{/* <!-- Notifications --> */}
@@ -92,7 +95,7 @@ export const Navbar = () => {
 							aria-expanded="false"
 						>
 							<img
-								src="https://mdbcdn.b-cdn.net/img/new/avatars/2.webp"
+								src="https://static.thenounproject.com/png/4314581-200.png"
 								className="rounded-circle"
 								height="25"
 								alt="Black and White Portrait of a Man"

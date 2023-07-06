@@ -50,40 +50,40 @@ export const Footer = () => {
                                 <h6 className="text-uppercase mb-4 font-weight-bold">Follow us</h6>
 
                                 <a
-                                    className="btn btn-primary btn-floating m-1"
-                                    // style="background-color: #3b5998"
+                                    className="btn btn-dark btn-floating m-1"
+                                    style={{ backgroundColor: "#000000" }}
                                     href="#!"
                                     role="button"
                                 ><i className="fab fa-facebook-f"></i
                                 ></a>
 
                                 <a
-                                    className="btn btn-primary btn-floating m-1"
-                                    // style="background-color: #55acee"
+                                    className="btn btn-dark btn-floating m-1"
+                                    style={{ backgroundColor: "#000000" }}
                                     href="#!"
                                     role="button"><i className="fab fa-twitter"></i></a>
 
                                 <a
-                                    className="btn btn-primary btn-floating m-1"
-                                    // style="background-color: #dd4b39"
+                                    className="btn btn-dark btn-floating m-1"
+                                    style={{ backgroundColor: "#000000" }}
                                     href="#!"
                                     role="button"><i className="fab fa-google"></i></a>
 
                                 <a
-                                    className="btn btn-primary btn-floating m-1"
-                                    // style="background-color: #ac2bac"
+                                    className="btn btn-dark btn-floating m-1"
+                                    style={{ backgroundColor: "#000000" }}
                                     href="#!"
                                     role="button"
                                 ><i className="fab fa-instagram"></i></a>
                                 <a
-                                    className="btn btn-primary btn-floating m-1"
-                                    // style="background-color: #0082ca"
+                                    className="btn btn-dark btn-floating m-1"
+                                    style={{ backgroundColor: "#000000" }}
                                     href="#!"
                                     role="button"
                                 ><i className="fab fa-linkedin-in"></i></a>
                                 <a
-                                    className="btn btn-primary btn-floating m-1"
-                                    // style="background-color: #333333"
+                                    className="btn btn-dark btn-floating m-1"
+                                    style={{ backgroundColor: "#000000" }}
                                     href="#!"
                                     role="button"
                                 ><i className="fab fa-github"></i></a>
@@ -92,8 +92,8 @@ export const Footer = () => {
                     </section>
                 </div>
                 <div className="text-center p-3" style={{ backgroundColor: "rgba(0, 0, 0, 0.2)" }}>
-                    © 2023 Copyright:
-                    <a className="text-white" href="https://mdbootstrap.com/">Island Escape Tours</a>
+                    © 2023 Copyright: Island Escape Tours
+                    {/* <a className="text-white"> Island Escape Tours </a> */}
                 </div>
             </footer>
         </div>

@@ -1,6 +1,7 @@
 import React from "react";
 
 import { Navbar } from "./navbar";
+import { Landing } from "./landing";
 import { Card } from "./card";
 import { Jumbotron } from "./jumbotron";
 import { Footer } from "./footer";
@@ -10,6 +11,7 @@ const Home = () => {
 	return (
 		<div className="Home">
 			<Navbar />
+			<Landing />
 			<Jumbotron />
 			<div className="d-flex justify-content-center gap-5">
 				<Card img={"https://www.yachtworld.com/research/files/2023/06/Kaos-Pool-.jpeg"}/>
